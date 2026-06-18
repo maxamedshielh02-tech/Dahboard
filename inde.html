@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Dashboard</title>
+    <style>
+       
+        body {
+            margin: 0;
+            display: flex;
+            height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+       
+        .sidebar {
+            width: 250px;
+            background-color: #34495e;
+            color: white;
+            padding-top: 20px;
+        }
+
+        .sidebar h2 {
+            padding-left: 20px;
+            margin-bottom: 30px;
+            font-size: 24px;
+        }
+
+        .sidebar a {
+            display: block;
+            padding: 15px 20px;
+            color: white;
+            text-decoration: none;
+            transition: background-color 0.3s ease; 
+           
+        }
+
+        
+        .sidebar a:hover {
+            background-color: #476f96;
+            
+        }
+
+
+        .main-content {
+            flex: 1;
+            padding: 40px;
+        }
+
+        .header-box {
+            background-color: #34495e;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .welcome-card {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="sidebar">
+        <h2>Dashboard</h2>
+        <a href="Dashboard.html">Home</a>
+        <a href="student dashboar.html">Students</a>
+        <a href="setting dashboard.html">Settings</a>
+        <a href="log out dashboard.html">Logout</a>
+    </div>
+
+    <div class="main-content">
+        <div class="header-box">
+            Welcome to Student Dashboard
+        </div>
+        
+        <div class="welcome-card">
+            <h2 style="text-align: center;">Hello Administrator 👋</h1>
+            <p style="color:green;text-align: center;">Use the sidebar to manage students, adjust settings or securely logout.</p>
+            <p style="color:green;text-align: center;">This dashboard helps you track, update and organize student information easily.</p>
+        </div>
+    </div>
+
+</body>
+</html>
